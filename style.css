@@ -50,7 +50,7 @@ header .logo{
     font-size: 3rem;
     font-weight: bolder;
     color: #f89fbc;
-    font-family:cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     transition: 2s ease-in-out;
     
 }
@@ -476,7 +476,7 @@ header .navbar a:hover::after{
 }
 .contact .contact-container input::placeholder, .contact .contact-container textarea::placeholder{
     color: #870530;
-    font-family:cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
 .contact .contact-container .button {
@@ -503,7 +503,7 @@ header .navbar a:hover::after{
     text-align: center;
     padding-top: 2%;
     font-weight: 600;
-    font-family: cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-shadow: 0 0 30px #d393a8;
 }
 
@@ -545,6 +545,26 @@ footer{
     .skills .col-1, .skills .col-2 {
         flex-basis: 100%;
     }
+    #about{
+        height: 115vh;
+        width: 100%;
+    }
+    #about .inform{
+        flex-basis: 100%;
+    }
+    #about .inform .profile{
+        flex-basis: 100%;
+        padding-left: 50%;
+    }
+    .skills{
+        min-height: 100vh;
+    }
+
+    .projects .project-container .prj{
+        width: 43%;
+        height: 350px;
+    
+    }
   
 }
 
@@ -582,7 +602,7 @@ footer{
         position: absolute;
         background:linear-gradient(#250312,#63062deb);
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         top: 60px;
         left: 0;
         text-align: center;
@@ -608,6 +628,7 @@ footer{
 .about .inform{
     margin-top: 10px;
 }
+
 
 
 

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" >
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "SheNAU4dUO1LIvlrW",
+      });
+   })();
+</script>
+</head>
+
+<body>
+    <header>
+       
+        <a href="#" id="logo" class="logo"><span>JEFF</span>rin</a>
+        <div class="menu" id="open"  onclick="toggleNavbar()"><i class="fa-solid fa-bars" id="menuIcon"></i></div>
+       
+        <nav class="navbar" id="navbar" >
+            <a class="nav-item"  href="#home">Home</a>
+            <a class="nav-item"  href="#about">About</a>
+            <a class="nav-item"  href="#skills">Skills</a>
+            <a class="nav-item"  href="#education">Education</a>
+            <a class="nav-item"  href="#projects">Projects</a>
+            <a class="nav-item"  href="#contact">Contact</a>
+        </nav>
+       
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h2>hi, i'm jeffrin</h2><br>
+            <span>fullStack web developer</span>
+        </div>
+    </section>
+
+    <section  id="about">
+        <div class="about">
+        <img src="img/about.jpg" alt="profile image" class="profile">
+        <div class="inform">
+            <h1 class="heading">About <span>me</span></h1>
+            <p>I’m Anto Jeffrin, and I recently completed my B.E. in Computer Science Engineering. I also completed a 6 months internship in the domain of FullStack Web Developer at NP software services pvt ltd, nagercoil,where i gained practical experience with both frontend and backend technologies. I’m currently supporting this company. I’m particularly interested in creating responsive websites and am actively looking for job opportunities to apply my skills and continue growing in this field.</p>
+            <a href="Anto Jeffrin.pdf" class="download" download>download CV</a>
+        </div>
+        </div>
+</section>
+
+<section class="skills" id="skills"> 
+    <h2 class="heading">skil<span>ls</span></h2>  
+    <div class="content">   
+            <div class="col-1">
+                <h3>technical skills</h3>
+                <div class="icons">
+                <a href="#"><i class="fa-brands fa-html5"></i><br>HTML</a><br>
+                <a href="#"><i class="fa-brands fa-css3-alt"></i><br>CSS</a><br>
+                <a href="#"><i class="fa-brands fa-js"></i><br>JavaScript</a><br>
+                <a href="#"><i class="fa-brands fa-bootstrap"></i><br>Bootstrap</a><br>
+                <a href="#"><i class="fa-brands fa-angular"></i><br>angular</a><br>
+                <a href="#"><i class="fa-brands fa-java"></i><br>java</a><br>
+                <a href="#"><img src="img/spring.png" alt="springboot"class="spring"><br>Spring Boot</a><br>
+                </div>
+            </div>
+            <div class="col-2">
+                <h3>proffessional skills</h3>
+                <div class="icons">
+                <a href="#"><i class="fa-regular fa-message"></i><br>communication</a><br><br>
+                <a href="#"><i class="fa-solid fa-brain"></i><br>problem solving</a><br><br>
+                <a href="#"><i class="fa-solid fa-paintbrush"></i></i><br>creativity</a><br><br>
+                <a href="#"><i class="fa-solid fa-book-open-reader"></i><br>ability to learn</a><br><br>
+                <a href="#"><i class="fa-brands fa-git"></i><br>git</a><br><br>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">edu<span>cation</span></h2>
+        <div class="content">
+            <div class="edu-yr"><span class="point"><i class="fa-solid fa-arrow-down"></i></span><span class="year">2020-2024</span></div>
+        <div class="edu">
+            <h4>B.E.Computer science and engineering</h4><br>
+            <p><span class="clg">DMI engineering college, aralvaimozhi, tamil nadu, india</span> <span class="percentage">(CGPA: 8.41)</span></p>
+
+        </div>
+        <div class="edu-yr"><span class="point"><i class="fa-solid fa-arrow-down"></i></span><span class="year">2019-2020</span></div>
+        <div class="edu">
+            <h4>HSC</h4><br>
+            <p><span class="clg">sacred heart higher secondary school, kavalkinaru, tamil nadu, india </span><span class="percentage">(percentage: 64%)</span></p>
+            
+        </div>
+        <div class="edu-yr"><span class="point"><i class="fa-solid fa-arrow-down"></i></span><span class="year">2017-2018</span></div>
+        <div class="edu">
+            <h4>SSLC</h4><br>
+            <p><span class="clg">sacred heart higher secondary school, kavalkinaru, tamil nadu, india </span> <span class="percentage">(percentage: 84%) </span></p>
+            
+        </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+<h2 class="heading">pr<span>ojects</span></h2>
+<div class="project-container">
+    
+
+        <div class="prj"id="prj">
+           
+                <img src="img/prj1.png" alt="">
+            <div class="explain" >
+                <h3>e-commerce website</h3>
+                <p>Built a responsive e-commerce website using HTML and CSS</p>
+                <a href="https://github.com/AntoJeffrin/Flower-ECommerce"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="prj"id="prj">
+           
+            <img src="img/prj2.png" alt="">
+        <div class="explain" >
+            <h3>My portfolio</h3>
+            <p>Built a responsive portfolio website using HTML,CSS and JavaScript</p>
+            <a href="https://github.com/AntoJeffrin/My-Portfolio"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+    <div class="prj"id="prj">
+           
+        <img src="img/prj3.png" alt="">
+    <div class="explain" >
+        <h3>javaScript projects</h3>
+        <p>Built a small javaScript projects using HTML,CSS and JavaScript</p>
+        <a href="https://github.com/AntoJeffrin/HTML-CSS-JavaScript"><i class="fas fa-external-link-alt"></i></a>
+    </div>
+</div>
+    </div>
+    
+</div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">contact <span>me</span></h2>
+        <div class="contacts">
+        <div class="contact-contain">
+            <a href="tel:+6382149080" class="social"><i class="fa-solid fa-phone"></i>6382149080</a><br>
+            <a href="mailto:antojeffrin2003@gmail.com" class="social" style="text-transform: lowercase;"><i class="fa-solid fa-envelope" ></i>antojeffrin2003@gmail.com</a><br>
+            <a href="#" class="social"><i class="fa-solid fa-location-dot"></i>india, tamil nadu, tirunelveli district-627105,kavalkinaru</a>
+
+            <div class="social-contact">
+                <a href=" https://api.whatsapp.com/send?phone=6382149080" class="social"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/in/anto-jeffrin-j-727238291/" class="social"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/AntoJeffrin" class="social"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+        </div>
+        <div class="contact-container">
+            <form action="" class="contact-form">
+                <div class="contact-group">
+                    <input type="text" placeholder="Full Name"id="fullName" required>
+                    <input type="email" placeholder="Email" id="email"required>
+                </div>
+                <textarea  placeholder="Message" rows="8" required id="message"></textarea>
+                <input type="submit" onclick="sendMail()" class="button" value="Send Message">
+                <div id="messageDisplay"></div>
+            </form>
+            
+        </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="credit"> created by <span>Miss anto jeffrin 2024</span> <span style="color:rgb(237, 128, 186);">|</span> all rights reserved</div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
